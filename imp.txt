@@ -1,0 +1,69 @@
+To Clone any repo use this command :
+
+git clone repo_url
+
+
+Repo is copied to your folder ,then just go inside the folder of repo
+
+To see the status or log of git:
+
+git log --stat
+
+
+To go to any commit state of the whole project:
+
+git checkout commit_id
+
+To see diff in any commits:
+
+git diff commit_id_1 commit_id_2
+
+
+To make any folder a respository:
+
+git init
+
+
+To see untracked files 
+
+git status
+
+To write commit message
+
+git commit -m "commit message"
+
+
+git diff           compares working directiry and staging area
+git diff --staged  compares staging area with repo commit1
+git diff commit1 commit 2   comapres commit1 and commit2 in repo
+
+To check on which branch u are working
+
+git branch
+
+To form new branch in github
+
+git branch new_branch_name
+
+
+To switch to new branch
+
+git checkout new_branch_name
+
+
+If a branch is deleted and leaves some commits unreachable from existing branches, those commits will continue to be accessible by commit id, until Git’s garbage collection runs. This will happen automatically from time to time, unless you actively turn it off. You can also run this process manually with git gc
+
+
+To merge two branches
+
+git merge branch1 branch2
+
+
+to delet a branch
+
+git branch -d branch_name
+
+
+Syncing Repos
+
+Make sure to include all commits that are reachable by the commit at the tip of branch a and not already on the GitHub-hosted remote.
